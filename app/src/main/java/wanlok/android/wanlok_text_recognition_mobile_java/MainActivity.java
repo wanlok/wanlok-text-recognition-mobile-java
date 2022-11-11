@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        setTitle("Text Recognition Mobile Server");
+        setTitle("Text Recognition Server");
         textView = findViewById(R.id.textView);
         try {
             presenter = new MainPresenter(this);
