@@ -1,0 +1,1 @@
+This is a project created to test different text recognition libraries on Android. The application will run as a web server and returns recognized text in JSON format when an image or pdf file is provided in a web request in the “file” parameter. (e.g., an HTTP request with an image in the “file” parameter to http://localhost:8082)
